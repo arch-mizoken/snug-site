@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Snug — Snug</title>
+<meta name="description" content="Snug — a quiet sliding puzzle">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@400;700;900&family=Baloo+2:wght@500;700;800&display=swap" rel="stylesheet">
+<style>
+:root {
+  --sumi: #191919; --paper: #FFFFFF; --kinari: #FBF7EF;
+  --canvas: #EFEDE8; --line: #E4E0D6; --sub: #5C6670; --mute: #6B7280;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0; background: var(--canvas); color: var(--sumi);
+  font-family: 'Zen Maru Gothic', 'Baloo 2', system-ui, sans-serif;
+  font-weight: 500; line-height: 1.95; -webkit-text-size-adjust: 100%;
+  /* 「ポリシ／ー」のように、長音だけが次の行に落ちるのを防ぐ */
+  line-break: strict; overflow-wrap: anywhere;
+}
+.wrap { max-width: 720px; margin: 0 auto; padding: 32px 20px 72px; }
+header { padding: 20px 0 8px; }
+.brand {
+  font-family: 'Baloo 2', sans-serif; font-weight: 800; font-size: 22px;
+  letter-spacing: .01em; text-decoration: none; color: var(--sumi);
+}
+.brand span { font-family: 'Zen Maru Gothic', sans-serif; font-size: 13px;
+  font-weight: 500; color: var(--sub); margin-left: 10px; }
+main {
+  background: var(--paper); border: 1px solid var(--line);
+  border-radius: 18px; padding: clamp(20px, 5vw, 44px);
+}
+h1 { font-size: clamp(23px, 5.6vw, 32px); font-weight: 900; margin: 0 0 6px;
+  line-height: 1.5; text-wrap: balance; }
+h2 { font-size: 18px; font-weight: 700; margin: 40px 0 10px; line-height: 1.6;
+  text-wrap: balance; }
+h3 { font-size: 15px; font-weight: 700; margin: 26px 0 6px; color: var(--sumi); }
+p, li { font-size: 15px; }
+p { margin: 0 0 14px; }
+ul { margin: 0 0 16px; padding-left: 1.3em; }
+li { margin: 4px 0; }
+hr { border: none; border-top: 1px solid var(--line); margin: 34px 0; }
+a { color: var(--sumi); text-underline-offset: 3px; }
+a:hover { color: var(--sub); }
+code { font-family: 'Baloo 2', monospace; background: var(--kinari);
+  padding: 1px 6px; border-radius: 5px; font-size: 13px; }
+.updated { font-size: 13px; color: var(--mute); margin: 0 0 8px; }
+nav.links { margin-top: 28px; font-size: 14px; }
+nav.links a { margin-right: 18px; }
+footer { margin-top: 28px; font-size: 13px; color: var(--mute); text-align: center; }
+footer a { color: var(--mute); }
+</style>
+</head>
+<body>
+<div class="wrap">
+<header><a class="brand" href="/en/">Snug<span>No two dogs in the same line</span></a></header>
+<main>
+<h1>Snug</h1>
+<p>A quiet sliding puzzle. Arrange the dogs so that no two of them share a row or a column.
+No timer, no move limit, nothing to lose.</p>
+<h2>On this site</h2>
+<ul>
+<li><a href="/en/privacy.html">Privacy Policy</a></li>
+<li><a href="/en/support.html">Support and FAQ</a></li>
+</ul>
+<h2>Contact</h2>
+<p>support@snug-puzzle.com</p>
+</main>
+<nav class="links"><a href="/en/privacy.html">Privacy Policy</a><a href="/en/support.html">Support</a><a href="/">日本語</a></nav>
+<footer>Arch Business　<a href="mailto:support@snug-puzzle.com">support@snug-puzzle.com</a></footer>
+</div>
+</body>
+</html>
