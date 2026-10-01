@@ -1,0 +1,4 @@
+# Snug: Slide Puzzle（https://apps.apple.com/app/id6814993554）
+# この1行が、広告の在庫がこのアプリのものだと示す。無いと、買い手が入札を控える。
+# 値は AdMob コンソールの「app-ads.txt」欄に出ている文字列と同じであること。
+google.com, pub-6427987321318655, DIRECT, f08c47fec0942fa0
